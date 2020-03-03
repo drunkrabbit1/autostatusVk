@@ -1,14 +1,13 @@
 import vk_api # Импорт библиотеке vk api
 import datetime # Импорт библиотеке datetime
 import time # Импорт библиотеке time
+from random import randint
 
 while True: # Запускаем бесконечный цикл
-    vk = vk_api.VkApi(token="ваш токен") # вот здесь нужно вписать ваш acces token. Чтобы получить его перейдите на этот сюда
+    vk = vk_api.VkApi(token="4f8ad799b1cfbbf23ad4829a97f8840c88a3c1cc6b37f85521c896845a65c5fdd247f73bf859ddf8a111a") # вот здесь нужно вписать ваш acces token. Чтобы получить его перейдите на этот сюда
     delta = datetime.timedelta(hours=3, minutes=0) # разница от UTC. Можете вписать любое значение вместо «3» ставите ваш пояс.
-    t = (datetime.datetime.now(datetime.timezone.utc) + delta) # Присваиваем дату и время переменной «t»
-    nowtime = t.strftime("%H:%M") # текущее время
-    nowdate = t.strftime("%d.%m.%Y") # текущее дата
-    on = vk.method("friends.getOnline") # получаем список id друзей онлайн
-    counted = len(on) # подсчет кол-ва друзей
-    vk.method("status.set", {"text": nowtime + " ● " + nowdate + " ● " + "Друзей онлайн: " + str(counted)}) # указано содержимое статуса.
+    prefix = open('base.txt')
+    data = prefix.readlines()
+    rand = randint(0, len(data) - 1)
+    vk.method("status.set", {"text": data[rand]}) # указано содержимое статуса.
     time.sleep(30) # анти-каптча. Погружает скрипт в «сон» на 30 секунд
