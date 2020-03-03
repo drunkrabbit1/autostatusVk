@@ -9,5 +9,5 @@ while True: # Запускаем бесконечный цикл
     prefix = open('base.txt')
     data = prefix.readlines()
     rand = randint(0, len(data) - 1)
-    vk.method("status.set", {"text": "data[rand]}"") # указано содержимое статуса.
+    vk.method("status.set", {"text": "фывава\n adfsfas") # указано содержимое статуса.
     time.sleep(30) # анти-каптча. Погружает скрипт в «сон» на 30 секунд
