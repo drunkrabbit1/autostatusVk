@@ -1,6 +1,8 @@
-import vk_api # Импорт библиотеке vk api
-from random import randint
 
+import vk_api # Импорт библиотеке vk api
+import time
+from random import randint
+import json
 
 tkn='fb9de23c1ced0607334808e92e4e2de1b5fb2817b6cfff7a9e4f7436afaefcf65898f76f8b99a1659e9bf'
 while True: # Запускаем бесконечный цикл
