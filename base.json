@@ -1,26 +1,32 @@
 {
-  "prefix": [
-    {
-        "text": "Ну да, не спорю, наверное, это, типа, не по-мужски.\nГордиться глупо. Наш девиз: «Не благодаря, а вопреки!»",
-        "autor": "",
-    },
-    {
-        "text": "First, sadness as an emotion clearly has nothing to do with it.\nOn the contrary, it seems, crying, for a moment I became happier"
-    },
-    {
-        "text": "Ah, insults will be short-lived.\nFighting lovers end in orgies"
-    },
-    {
-        "text": "In vain do you find the game stupid.\nEverything is possible in them!"
-    },
-    {
-        "text": "It's raining and they won’t let me out.\nI'll look at the thunderstorm from the balcony ..."
-    },
-    {
-        "text": "I will be honest and sincere always\nAnd this is probably my misfortune"
-    },
-    {
-        "text": "Lass ihn Geld sparen und lass ihn gehen,\nund ich werde trinken, damit der Himmel heiß wird!"
-    }
-  ]
+  "fallen": [
+        {
+            "text": "Ну да, не спорю, наверное, это, типа, не по-мужски.\nГордиться глупо. Наш девиз: «Не благодаря, а вопреки!»",
+            "autor": "",
+        },
+        {
+            "text": "First, sadness as an emotion clearly has nothing to do with it.\nOn the contrary, it seems, crying, for a moment I became happier"
+        },
+        {
+            "text": "Ah, insults will be short-lived.\nFighting lovers end in orgies"
+        },
+        {
+            "text": "In vain do you find the game stupid.\nEverything is possible in them!"
+        },
+        {
+            "text": "It's raining and they won’t let me out.\nI'll look at the thunderstorm from the balcony ..."
+        },
+        {
+            "text": "I will be honest and sincere always\nAnd this is probably my misfortune"
+        },
+        {
+            "text": "Lass ihn Geld sparen und lass ihn gehen,\nund ich werde trinken, damit der Himmel heiß wird!"
+        }
+    ],
+    "None": [
+        {
+            "text": ""
+        },
+    ]
+
 }
