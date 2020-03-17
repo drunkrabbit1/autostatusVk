@@ -10,8 +10,11 @@ import json
   2.1 Подключения json_file
   2.2 Аторизация пользователя
   2.3 Методы
-
 """
+
+
+def anti_captcha(second):
+    time.sleep(second)
 
 
 class AutoStatus:
@@ -32,6 +35,3 @@ class AutoStatus:
     def status_set_text(self):
         rand = randint(0, len(self.json[self.user_name]) - 1) # рандомное число
         self.vk.method("status.set",{"text": self.json[self.user_name][rand]['text']})
-
-    def anti_captcha(self, second):
-        time.sleep(second)
