@@ -25,7 +25,7 @@ class AutoStatus:
         self.token = token
         self.vk = vk_api.VkApi(token=token)
 
-    def json_file(self, name):
+    def json_file(self, name='base.json'):
         base = open(name)
         self.json = json.loads(base.read())
         return self
