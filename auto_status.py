@@ -11,13 +11,15 @@ import json
   2.2 Аторизация пользователя
   2.3 Методы
 """
+def exceptions_captcha():
+    return vk_api.exceptions.Captcha
 
-
-def anti_captcha(second):
-    time.sleep(second)
+def anti_captcha(min):
+    time.sleep(min*60)
 
 
 class AutoStatus:
+    vk = vk_api
 
     def __init__(self, token):
         self.token = token
