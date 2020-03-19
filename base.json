@@ -23,9 +23,45 @@
             "text": "Lass ihn Geld sparen und lass ihn gehen,\nund ich werde trinken, damit der Himmel heiß wird!"
         }
     ],
-    "None": [
+    "none": [
         {
-            "text": "жкjnjnп"
+            "text": "Пусть все твои раны станут смертельными."
         },
+        {
+            "text": "Не смерть, а брат ее -  сон."
+        },
+        {
+            "text": "Omnia tempus est."
+        },
+        {
+            "text": "Non mortem, somni fratrem."
+        },
+        {
+            "text": "smile always, my love."
+        },
+        {
+            "text": "I'm a complete disappointment."
+        },
+        {
+            "text": "Mortem effugere nemo potest."
+        },
+        {
+            "text": "Dum spiro, spero."
+        },
+        {
+            "text": "VALE ET ME AMA."
+        },
+        {
+            "text": "AUT VINCERE, AUT MORI."
+        },
+        {
+            "text": "FALLACES SUNT RERUM SPECIES."
+        },
+        {
+            "text": "Глубокое сожаление ведет к новой жизни."
+        },
+        {
+            "text": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+        }
     ]
 }
