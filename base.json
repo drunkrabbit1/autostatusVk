@@ -2,7 +2,7 @@
   "fallen": [
         {
             "text": "Ну да, не спорю, наверное, это, типа, не по-мужски.\nГордиться глупо. Наш девиз: «Не благодаря, а вопреки!»",
-            "autor": "",
+            "autor": ""
         },
         {
             "text": "First, sadness as an emotion clearly has nothing to do with it.\nOn the contrary, it seems, crying, for a moment I became happier"
@@ -25,6 +25,7 @@
     ],
     "none": [
         {
+<<<<<<< HEAD
             "text": "Пусть все твои раны станут смертельными."
         },
         {
@@ -62,6 +63,10 @@
         },
         {
             "text": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+=======
+            "text": "жкп"
+>>>>>>> d45bb4164958881528ea77b210cd44a6a14162e9
         }
     ]
+
 }
