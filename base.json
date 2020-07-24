@@ -1,10 +1,6 @@
 {
   "fallen": [
         {
-            "text": "Ну да, не спорю, наверное, это, типа, не по-мужски.\nГордиться глупо. Наш девиз: «Не благодаря, а вопреки!»",
-            "autor": ""
-        },
-        {
             "text": "First, sadness as an emotion clearly has nothing to do with it.\nOn the contrary, it seems, crying, for a moment I became happier"
         },
         {
@@ -23,46 +19,4 @@
             "text": "Lass ihn Geld sparen und lass ihn gehen,\nund ich werde trinken, damit der Himmel heiß wird!"
         }
     ],
-    "none": [
-        {
-            "text": "Пусть все твои раны станут смертельными."
-        },
-        {
-            "text": "Не смерть, а брат ее -  сон."
-        },
-        {
-            "text": "Omnia tempus est."
-        },
-        {
-            "text": "Non mortem, somni fratrem."
-        },
-        {
-            "text": "smile always, my love."
-        },
-        {
-            "text": "I'm a complete disappointment."
-        },
-        {
-            "text": "Mortem effugere nemo potest."
-        },
-        {
-            "text": "Dum spiro, spero."
-        },
-        {
-            "text": "VALE ET ME AMA."
-        },
-        {
-            "text": "AUT VINCERE, AUT MORI."
-        },
-        {
-            "text": "FALLACES SUNT RERUM SPECIES."
-        },
-        {
-            "text": "Глубокое сожаление ведет к новой жизни."
-        },
-        {
-            "text": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-        }
-    ]
-
 }
